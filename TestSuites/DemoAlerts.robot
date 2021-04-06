@@ -10,3 +10,4 @@ Variables   ../Data/DataAlerts.yaml
     [Teardown]  Close Your Browser
     Select the ${1.CATEGORY} category
     Select the ${1.MENU} menu
+    test
