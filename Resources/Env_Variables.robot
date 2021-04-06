@@ -4,6 +4,7 @@ Library  Selenium2Library
 Library  OperatingSystem
 Library  String
 Resource   CommonKeywords.robot
+Resource   AlertKeywords.robot
 
 *** Variables ***
 ${TIME_OUT}     10s

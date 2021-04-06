@@ -65,11 +65,9 @@ Select the ${menu} menu
     Log   ${convert_menu}
 
     # Verify text
-    Wait Until Element Is Visible   ${${convert_menu}_locator}      ${TIME_OUT}
+    Wait Until Page Contains Element    ${${convert_menu}_locator}      ${TIME_OUT}
     ${text_menu}  Get Text  ${${convert_menu}_locator}
     Should be equal  ${menu}  ${text_menu}
 
     # Click the category
     Click element  ${${convert_menu}_locator}
-
-    sleep  3s

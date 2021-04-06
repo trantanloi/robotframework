@@ -1,5 +1,47 @@
-1:
-    URL_PAGE:  https://demoqa.com/
-    BROWSER:   Chrome
+URL_PAGE:  https://demoqa.com/
+
+TC01:
+    BROWSER:   Firefox
     CATEGORY:  Alerts, Frame & Windows
     MENU:  Alerts
+    CONTENT:  You clicked a button
+    NAME_BUTTON: OK
+
+TC02:
+    BROWSER:   Firefox
+    CATEGORY:  Alerts, Frame & Windows
+    MENU:  Alerts
+    CONTENT:  This alert appeared after 5 seconds
+    NAME_BUTTON: OK
+
+TC03:
+    BROWSER:   Firefox
+    CATEGORY:  Alerts, Frame & Windows
+    MENU:  Alerts
+    CONTENT:  Do you confirm action?
+    MESSAGE:  You selected Ok
+    NAME_BUTTON: OK
+
+TC04:
+    BROWSER:   Firefox
+    CATEGORY:  Alerts, Frame & Windows
+    MENU:  Alerts
+    CONTENT:  Do you confirm action?
+    MESSAGE:  You selected Cancel
+    NAME_BUTTON: Cancel
+
+TC05:
+    BROWSER:   Firefox
+    CATEGORY:  Alerts, Frame & Windows
+    MENU:  Alerts
+    NAME: Test Prompt Box
+    NAME_BUTTON: OK
+    MESSAGE:  You entered Test Prompt Box
+
+TC06:
+    BROWSER:   Firefox
+    CATEGORY:  Alerts, Frame & Windows
+    MENU:  Alerts
+    NAME: Test Prompt Box
+    NAME_BUTTON: Cancel
+    MESSAGE:
