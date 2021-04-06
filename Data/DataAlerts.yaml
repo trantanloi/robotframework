@@ -1,0 +1,5 @@
+1:
+    URL_PAGE:  https://demoqa.com/
+    BROWSER:   Chrome
+    CATEGORY:  Alerts, Frame & Windows
+    MENU:  Alerts

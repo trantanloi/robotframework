@@ -1,0 +1,9 @@
+- Config Environment:
+    1. Python3
+    2. Install PyYaml:
+        Cmd: pip install PyYaml
+    3. Install Robot Framework:
+        Cmd: pip install robot-framework
+
+- Cmd run test script:
+    For Example: robot -d ../Report My_Page.robot
